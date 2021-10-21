@@ -1,0 +1,85 @@
+\documentclass[10pt, letterpaper]{article}                %Page Setup
+\usepackage[letterpaper, portrait, margin=1in]{geometry}  %Page Setup
+\usepackage[utf8]{inputenc}
+\usepackage{comment}                                      %Commenting
+\usepackage{hyperref}                                     %Hyperlinks
+\usepackage{multicol}                                     %Multiple Columns
+\usepackage{multirow}                                     %Allow for Multiple Rows
+\usepackage{vwcol}                                        %Allow for Columns of Varied Width
+\usepackage{ragged2e}                                     %Allow for Varied Alignment
+\usepackage{tabto}                                        %For Tabs
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  filecolor=magenta,
+  urlcolor=black, %cyan,
+}
+
+\begin{document}
+\begin{comment}
+  \begin{tabular}{|p{0.3\linewidth} | p{0.6\linewidth}|}
+    \multirow{3}{4em}{MultiRow Element} &Element 1\\
+    &Element 2\\
+    &Element 3
+  \end{tabular}
+\end{comment}
+
+\thispagestyle{empty}
+
+\noindent
+\begin{tabular}{|p{0.25\linewidth} | p{0.6\linewidth}}
+  \multirow{3}{12em}{{\textbf{\Large Karl Ventayen}} \\ College Student} &\textbf{Address:} 6007 Bluewater Bay Court, Bakersfield, CA 93312\\
+  &\textbf{Phone:} 661-800-2221\\
+  &\textbf{Email:} cammeraprogramming@gmail.com
+\end{tabular}
+\\
+\\
+\\
+\noindent \textbf{\large \underline{Objective}}\\
+Secure an internship, offer my current skills, and advance my knowledge of Computer Engineering to prepare me for my career.\\
+\\
+\textbf{\large \underline{Experience}}\\
+\textbf{Marketing Officer of the Chico State IEEE}\\
+\tab \tab August 2020 - Present (Chico, CA)\\
+\textbf{Bakersfield Family Medical Center / Shadower}\\
+\tab \tab April 2018 - April 2018 (Bakersfield, CA)\\
+\textbf{American Heart Association / Basic Life Support License}\\
+\tab \tab August 2021 (Bakersfield, CA)\\
+\textbf{Toastmasters International / Club President}\\
+\tab \tab August 2018 - May 2019 (Bakersfield, CA)\\
+\textbf{Asian Culture 101 Club / Club President}\\
+\tab \tab August 2018 - May 2019 (Bakersfield, CA)\\
+\\
+\textbf{\large \underline{Education}}\\
+\textbf{California State University, Chico Bachelor of Science in Computer Engineering}\\
+\tab \tab - May 2023, Chico, California\\
+\textbf{Garces Memorial High School}\\
+\tab \tab - August 2015 - May 2019, Bakersfield, California\\
+\tab \tab - President of Gavel Club (minority age group of Toastmaster's International, public speaking club)\\
+\tab \tab - President of Asian Culture 101 Club (Began club to recognize Asian culture and diversity)\\
+\begin{multicols}{2}
+\noindent\textbf{\large \underline{Software}}\\
+\tab \tab Vim\\
+\tab \tab Atom\\
+\tab \tab MPLAB X IDE\\
+\tab \tab MPLAB X IPE\\
+\\
+\textbf{\large \underline{Programming Languages}}\\
+\tab \tab C++\\
+\tab \tab Python\\
+\tab \tab LaTeX\\
+\columnbreak
+\\
+\textbf{\large \underline{Websites}}\\
+\tab \tab \url{https://github.com/kventayen}\\
+\tab \tab \url{https://www.linkedin.com/in/karl-ventayen-46247a204/}\\
+\\
+\textbf{\large \underline{Recreation}}\\
+\tab \tab Programming (Coding)\\
+\tab \tab Drawing\\
+\tab \tab Reading / Writing\\
+\tab \tab Practicing Skills
+\end{multicols}
+
+\end{document}
